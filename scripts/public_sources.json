@@ -1,0 +1,28 @@
+{
+  "why_disabled_by_default": "sha256 必须由运营方在可信下载后核对填入。写一个没核对过的哈希比不写更危险：永远对不上，还要让人以为做过校验。所以候选源默认全部禁用。",
+  "how_to_enable": [
+    "1. 把 url 换成直接下载地址（文件直链，不是仓库首页 / 落地页）；",
+    "2. 先下载一次并核对哈希：shasum -a 256 <文件>（或 sha256sum）；",
+    "3. 把算出来的哈希填进同一条目的 sha256 字段；",
+    "4. 把 enabled 改成 true；",
+    "5. 跑 python scripts/fetch_public_set.py --out var/public-set —— 哈希对不上会自动换源并降级到合成语料。"
+  ],
+  "sources": [
+    {
+      "name": "CMeEE 中文医学实体抽取评测集",
+      "url": "https://github.com/CMeEE/CMeEE",
+      "license": "研究用途（以仓库 LICENSE 为准）",
+      "sha256": "",
+      "enabled": false,
+      "note": "中文医学实体抽取公开集，病名 / 药名 / 检查项目术语齐全，适合做术语误伤回归。启用前请把 url 换成实际数据文件直链，并按上面的步骤固定 sha256。"
+    },
+    {
+      "name": "（示例条目）某机构公开去标识化报告样本",
+      "url": "https://example.org/deidentified-reports.jsonl",
+      "license": "CC-BY-4.0",
+      "sha256": "",
+      "enabled": false,
+      "note": "占位条目：照这个形状改成院方或机构实际提供的公开去标识化语料（jsonl / zip / tar.gz 均可）。"
+    }
+  ]
+}

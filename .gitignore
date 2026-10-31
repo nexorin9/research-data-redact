@@ -1,0 +1,52 @@
+# ---- 凭据与本地配置 ----
+.env
+.env.*
+!.env.example
+
+# ---- 虚拟环境 ----
+venv/
+.venv/
+env/
+
+# ---- 依赖与构建产物 ----
+node_modules/
+target/
+dist/
+build/
+coverage/
+.next/
+*.egg-info/
+.eggs/
+
+# ---- 运行时数据 ----
+data/
+logs/
+var/
+tmp/
+temp/
+.cache/
+outbox/
+inbox/
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- 临时文件 ----
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+
+# ---- round 元数据（不得进入发布仓库）----
+score.json
+task.json
+progress.txt

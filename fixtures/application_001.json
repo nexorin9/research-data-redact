@@ -1,0 +1,23 @@
+{
+  "application_no": "KY20260001",
+  "ethics_approval_no": "EC-2026-0001",
+  "patient_ids": ["P-1001", "P-1002"],
+  "materials": [
+    {
+      "material_id": "KY20260001-CHK0000001-01",
+      "kind": "report_text",
+      "path": "materials/report_001.txt",
+      "patient_id": "P-1001",
+      "material_content": "胸部CT平扫，三级甲等住院病例",
+      "note": "复核记录：姓名：张某某，住院号：90000001"
+    },
+    {
+      "material_id": "KY20260001-CHK0000002-01",
+      "kind": "report_text",
+      "path": "materials/report_002.txt",
+      "patient_id": "P-1002",
+      "material_content": "胸部CT平扫，门诊病例",
+      "note": "复核记录：姓名：李某某，住院号：90000002"
+    }
+  ]
+}

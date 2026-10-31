@@ -1,0 +1,6 @@
+{"id": "N001", "text": "住院号：90000001", "expect_label": "VISIT_NO", "note": "真住院号：必须被脱，不得被白名单放过"}
+{"id": "N002", "text": "检查号：CHK0000001", "expect_label": "EXAM_NO", "note": "真检查号：必须被脱"}
+{"id": "N003", "text": "出生日期：1949-12-31", "expect_label": "BIRTH_DATE", "note": "真出生日期：必须被脱"}
+{"id": "N004", "text": "手机号：13800138000", "expect_label": "PHONE", "note": "真手机号：必须被脱"}
+{"id": "N005", "text": "姓名：张某某", "expect_label": "PATIENT_NAME", "note": "患者姓名：必须被脱"}
+{"id": "N006", "text": "身份证号：110101194912310016", "expect_label": "ID_CARD", "note": "GB 11643 校验位通过的身份证号：必须被脱"}

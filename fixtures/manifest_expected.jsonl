@@ -1,0 +1,5 @@
+{"material_id": "report_001", "label": "PATIENT_NAME", "start": 134, "end": 137, "score": 0.85, "tier": "confirmed", "action": "replace", "reason": "字段标签命中（姓名）", "recognizer": "labeled_field", "merged_duplicates": []}
+{"material_id": "report_001", "label": "VISIT_NO", "start": 164, "end": 172, "score": 0.85, "tier": "confirmed", "action": "replace", "reason": "字段标签命中（住院号）", "recognizer": "labeled_field", "merged_duplicates": []}
+{"material_id": "report_001", "label": "EXAM_NO", "start": 187, "end": 197, "score": 0.85, "tier": "confirmed", "action": "replace", "reason": "字段标签命中（检查号）", "recognizer": "labeled_field", "merged_duplicates": []}
+{"material_id": "report_001", "label": "BIRTH_DATE", "start": 211, "end": 221, "score": 0.85, "tier": "confirmed", "action": "redact", "reason": "字段标签命中（出生日期）", "recognizer": "labeled_field", "merged_duplicates": []}
+{"material_id": "report_001", "label": "PHONE", "start": 227, "end": 238, "score": 0.85, "tier": "confirmed", "action": "redact", "reason": "字段标签命中（手机号）", "recognizer": "labeled_field", "merged_duplicates": []}

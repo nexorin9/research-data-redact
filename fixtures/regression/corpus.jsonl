@@ -1,0 +1,90 @@
+{"id": "R001", "category": "病名", "text": "右肺下叶磨玻璃结节", "expect": "keep", "note": "放射报告结论里的典型表述，不得被当成姓名或编号脱掉"}
+{"id": "R002", "category": "病名", "text": "2型糖尿病", "expect": "keep", "note": "数字开头的病名，不得被当成住院号"}
+{"id": "R003", "category": "病名", "text": "原发性高血压3级（极高危）", "expect": "keep", "note": "含数字与括注的病名"}
+{"id": "R004", "category": "病名", "text": "慢性阻塞性肺疾病急性加重期", "expect": "keep", "note": "长病名不得被切走"}
+{"id": "R005", "category": "病名", "text": "急性ST段抬高型心肌梗死", "expect": "keep", "note": "含拉丁字母的病名"}
+{"id": "R006", "category": "病名", "text": "脑梗后遗症期", "expect": "keep", "note": ""}
+{"id": "R007", "category": "病名", "text": "社区获得性肺炎", "expect": "keep", "note": ""}
+{"id": "R008", "category": "病名", "text": "乙型病毒性肝炎", "expect": "keep", "note": ""}
+{"id": "R009", "category": "病名", "text": "妊娠期糖尿病", "expect": "keep", "note": ""}
+{"id": "R010", "category": "病名", "text": "缺铁性贫血", "expect": "keep", "note": ""}
+{"id": "R011", "category": "病名", "text": "消化性溃疡", "expect": "keep", "note": ""}
+{"id": "R012", "category": "病名", "text": "急性胰腺炎（轻症）", "expect": "keep", "note": "带括注的病名"}
+{"id": "R013", "category": "病名", "text": "慢性肾小球肾炎", "expect": "keep", "note": ""}
+{"id": "R014", "category": "病名", "text": "原发性骨质疏松症", "expect": "keep", "note": ""}
+{"id": "R015", "category": "病名", "text": "带状疱疹（肋间神经痛）", "expect": "keep", "note": ""}
+{"id": "R016", "category": "病名", "text": "甲状腺功能减退症", "expect": "keep", "note": ""}
+{"id": "R017", "category": "病名", "text": "短暂性脑缺血发作", "expect": "keep", "note": ""}
+{"id": "R018", "category": "病名", "text": "冠状动脉粥样硬化性心脏病", "expect": "keep", "note": ""}
+{"id": "R019", "category": "病名", "text": "腰椎间盘突出症", "expect": "keep", "note": ""}
+{"id": "R020", "category": "病名", "text": "支气管哮喘急性发作", "expect": "keep", "note": ""}
+{"id": "R021", "category": "药名", "text": "盐酸氨溴索口服液", "expect": "keep", "note": "药名不得被当成姓名（同名同姓的写法在既往语料里出现过）"}
+{"id": "R022", "category": "药名", "text": "布洛芬缓释胶囊", "expect": "keep", "note": ""}
+{"id": "R023", "category": "药名", "text": "阿莫西林胶囊", "expect": "keep", "note": ""}
+{"id": "R024", "category": "药名", "text": "注射用头孢曲松钠", "expect": "keep", "note": ""}
+{"id": "R025", "category": "药名", "text": "盐酸二甲双胍缓释片", "expect": "keep", "note": ""}
+{"id": "R026", "category": "药名", "text": "苯磺酸氨氯地平片", "expect": "keep", "note": ""}
+{"id": "R027", "category": "药名", "text": "缬沙坦胶囊", "expect": "keep", "note": ""}
+{"id": "R028", "category": "药名", "text": "阿托伐他汀钙片", "expect": "keep", "note": ""}
+{"id": "R029", "category": "药名", "text": "氯吡格雷硫酸氢钾片", "expect": "keep", "note": ""}
+{"id": "R030", "category": "药名", "text": "硝苯地平控释片", "expect": "keep", "note": ""}
+{"id": "R031", "category": "药名", "text": "泮托拉唑钠肠溶片", "expect": "keep", "note": ""}
+{"id": "R032", "category": "药名", "text": "奥美拉唑肠溶胶囊", "expect": "keep", "note": ""}
+{"id": "R033", "category": "药名", "text": "头孢呋辛酯片", "expect": "keep", "note": ""}
+{"id": "R034", "category": "药名", "text": "左氧氟沙星氯化钠注射液", "expect": "keep", "note": ""}
+{"id": "R035", "category": "药名", "text": "甲硝唑氯化钠注射液", "expect": "keep", "note": ""}
+{"id": "R036", "category": "药名", "text": "复方氨基酸注射液", "expect": "keep", "note": ""}
+{"id": "R037", "category": "科室名", "text": "呼吸内科", "expect": "keep", "note": "科室名不得被当成姓名"}
+{"id": "R038", "category": "科室名", "text": "心血管内科", "expect": "keep", "note": ""}
+{"id": "R039", "category": "科室名", "text": "神经内科", "expect": "keep", "note": ""}
+{"id": "R040", "category": "科室名", "text": "消化内科", "expect": "keep", "note": ""}
+{"id": "R041", "category": "科室名", "text": "普通外科", "expect": "keep", "note": ""}
+{"id": "R042", "category": "科室名", "text": "骨科", "expect": "keep", "note": ""}
+{"id": "R043", "category": "科室名", "text": "泌尿外科", "expect": "keep", "note": ""}
+{"id": "R044", "category": "科室名", "text": "妇产科", "expect": "keep", "note": ""}
+{"id": "R045", "category": "科室名", "text": "儿科", "expect": "keep", "note": ""}
+{"id": "R046", "category": "科室名", "text": "急诊医学科", "expect": "keep", "note": ""}
+{"id": "R047", "category": "科室名", "text": "医学影像科", "expect": "keep", "note": ""}
+{"id": "R048", "category": "科室名", "text": "检验科", "expect": "keep", "note": ""}
+{"id": "R049", "category": "检验项目名", "text": "血常规", "expect": "keep", "note": ""}
+{"id": "R050", "category": "检验项目名", "text": "尿常规", "expect": "keep", "note": ""}
+{"id": "R051", "category": "检验项目名", "text": "粪便常规加隐血", "expect": "keep", "note": ""}
+{"id": "R052", "category": "检验项目名", "text": "肝功能全套", "expect": "keep", "note": ""}
+{"id": "R053", "category": "检验项目名", "text": "肾功能全套", "expect": "keep", "note": ""}
+{"id": "R054", "category": "检验项目名", "text": "血脂四项", "expect": "keep", "note": ""}
+{"id": "R055", "category": "检验项目名", "text": "空腹血糖", "expect": "keep", "note": ""}
+{"id": "R056", "category": "检验项目名", "text": "糖化血红蛋白", "expect": "keep", "note": ""}
+{"id": "R057", "category": "检验项目名", "text": "凝血功能全套", "expect": "keep", "note": ""}
+{"id": "R058", "category": "检验项目名", "text": "心肌酶谱", "expect": "keep", "note": ""}
+{"id": "R059", "category": "检验项目名", "text": "甲状腺功能五项", "expect": "keep", "note": ""}
+{"id": "R060", "category": "检验项目名", "text": "肿瘤标志物", "expect": "keep", "note": ""}
+{"id": "R061", "category": "检验项目名", "text": "降钙素原", "expect": "keep", "note": ""}
+{"id": "R062", "category": "检验项目名", "text": "红细胞沉降率", "expect": "keep", "note": ""}
+{"id": "R063", "category": "检验项目名", "text": "C反应蛋白", "expect": "keep", "note": "含拉丁字母的检验项目名"}
+{"id": "R064", "category": "检验项目名", "text": "D-二聚体", "expect": "keep", "note": "带连字符的检验项目名"}
+{"id": "R065", "category": "检验项目名", "text": "动脉血气分析", "expect": "keep", "note": ""}
+{"id": "R066", "category": "检验项目名", "text": "电解质六项", "expect": "keep", "note": ""}
+{"id": "R067", "category": "检验项目名", "text": "乙肝五项", "expect": "keep", "note": ""}
+{"id": "R068", "category": "检验项目名", "text": "丙肝抗体", "expect": "keep", "note": ""}
+{"id": "R069", "category": "干扰项", "text": "姓名：未登记", "expect": "keep", "note": "姓名位置的非人名取值：白名单 exact 放行"}
+{"id": "R070", "category": "干扰项", "text": "姓名：新生儿", "expect": "keep", "note": "NICU 模板默认值：白名单 exact 放行"}
+{"id": "R071", "category": "干扰项", "text": "姓名：本人", "expect": "keep", "note": "代填取值：白名单 exact 放行"}
+{"id": "R072", "category": "干扰项", "text": "姓名：匿名", "expect": "keep", "note": "白名单 exact 放行"}
+{"id": "R073", "category": "干扰项", "text": "姓名：待补", "expect": "keep", "note": "白名单 exact 放行"}
+{"id": "R074", "category": "干扰项", "text": "姓名：张*", "expect": "keep", "note": "上游已打码的姓名：识别器不命中，正文原样保留"}
+{"id": "R075", "category": "干扰项", "text": "住院号：NONE", "expect": "keep", "note": "系统占位值：白名单 regex 放行"}
+{"id": "R076", "category": "干扰项", "text": "住院号：PENDING", "expect": "keep", "note": "系统占位值：白名单 regex 放行"}
+{"id": "R077", "category": "干扰项", "text": "住院号：0000000", "expect": "keep", "note": "全零占位号：白名单 regex 放行"}
+{"id": "R078", "category": "干扰项", "text": "门诊号：MZ000000", "expect": "keep", "note": "带前缀的全零占位号：白名单 regex 放行"}
+{"id": "R079", "category": "干扰项", "text": "住院号：XXXXXXX", "expect": "keep", "note": "上游已打码的编号：白名单 regex 放行"}
+{"id": "R080", "category": "干扰项", "text": "检查号：NULL", "expect": "keep", "note": "系统占位值：白名单 regex 放行"}
+{"id": "R081", "category": "干扰项", "text": "检查项目：血常规；检验项目编码：JC1234567890", "expect": "keep", "note": "检验项目编码与检查号同形（JC + 位数区分）：白名单 regex 放行"}
+{"id": "R082", "category": "干扰项", "text": "标本编号：20260105", "expect": "keep", "note": "形似住院号的标本号：附近无编号类上下文词，只进告警档，不改写"}
+{"id": "R083", "category": "干扰项", "text": "试剂批号：KQ20260105", "expect": "keep", "note": "试剂批号：不属于任何编号形态，不产生命中"}
+{"id": "R084", "category": "干扰项", "text": "身份证号：110101194912310010", "expect": "keep", "note": "形似身份证但 GB 11643 校验位不通过：只进告警档，不改写、不计入身份类残留"}
+{"id": "R085", "category": "干扰项", "text": "盐酸氨溴索口服液 30mL 每日 3 次", "expect": "keep", "note": "剂量数字：由数字类消歧挡掉"}
+{"id": "R086", "category": "干扰项", "text": "本次检查费用合计 128.50 元", "expect": "keep", "note": "金额数字：由数字类消歧挡掉"}
+{"id": "R087", "category": "干扰项", "text": "住院总费用 2450.00 元", "expect": "keep", "note": "金额数字：由数字类消歧挡掉"}
+{"id": "R088", "category": "干扰项", "text": "（本页为第 2 页）", "expect": "keep", "note": "页码：由数字类消歧挡掉"}
+{"id": "R089", "category": "干扰项", "text": "床号：12床", "expect": "keep", "note": "床号：由数字类消歧挡掉"}
+{"id": "R090", "category": "干扰项", "text": "第 3 次复查", "expect": "keep", "note": "复查序号：由数字类消歧挡掉"}

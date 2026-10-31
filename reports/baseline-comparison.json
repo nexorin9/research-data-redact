@@ -1,0 +1,45 @@
+{
+  "batch_count": 50,
+  "corpus": "var/corpus",
+  "different_patient_pairs": 123014,
+  "identity_hits": 3500,
+  "key_source": "基准跑用密钥（未配置 $PSEUDONYM_HMAC_KEY；非生产密钥）",
+  "material_count": 500,
+  "paths": [
+    {
+      "consistency": 1.0,
+      "cross_assignment_rate": 0.0,
+      "deliverable": true,
+      "display_name": "本产品（一致代号档）",
+      "identity_residual_rate": 0.0,
+      "own_token_residuals": 0,
+      "path_id": "product",
+      "residual_total": 0,
+      "single_code_rate": 1.0
+    },
+    {
+      "consistency": 1.0,
+      "cross_assignment_rate": 1.0,
+      "deliverable": false,
+      "display_name": "朴素查找替换",
+      "identity_residual_rate": 0.42857142857142855,
+      "own_token_residuals": 0,
+      "path_id": "naive",
+      "residual_total": 1500,
+      "single_code_rate": 0.0
+    },
+    {
+      "consistency": 0.0,
+      "cross_assignment_rate": 0.0,
+      "deliverable": false,
+      "display_name": "无一致性 hash 替换",
+      "identity_residual_rate": 0.4288571428571429,
+      "own_token_residuals": 1,
+      "path_id": "hash",
+      "residual_total": 1501,
+      "single_code_rate": 0.0
+    }
+  ],
+  "patient_count": 63,
+  "same_patient_pairs": 1736
+}

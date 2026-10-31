@@ -1,0 +1,9 @@
+# 运行依赖
+pyyaml>=6.0          # 策略表 policy/research.yaml 装载
+httpx>=0.27          # 出站客户端（HIS 患者主索引 / 科研数据平台 / 企业微信）
+openpyxl>=3.1        # 申请单 .xlsx 解析
+pydantic>=2.6        # 出站请求体 / 响应体字段规范校验
+cryptography>=42.0   # 对照索引加密存储（Fernet / AES-GCM）
+
+# 开发依赖
+pytest>=8.0
